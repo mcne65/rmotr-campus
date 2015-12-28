@@ -1,3 +1,7 @@
-from django.db import models
+from __future__ import division, unicode_literals, absolute_import
 
-# Create your models here.
+from django.contrib.auth.models import AbstractUser
+
+
+class User(AbstractUser):
+    pass

@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     # Thirt part apps
 
     # Own apps
+    'accounts',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -105,3 +106,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Auth
+LOGIN_REDIRECT_URL = '/'
+AUTH_USER_MODEL = 'accounts.User'
