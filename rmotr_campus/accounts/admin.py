@@ -1,3 +1,11 @@
-from django.contrib import admin
+from __future__ import division, unicode_literals, absolute_import
 
-# Register your models here.
+from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin as DjangoUserAdmin
+
+from accounts.models import User
+
+
+@admin.register(User)
+class UserAdmin(DjangoUserAdmin):
+    pass
