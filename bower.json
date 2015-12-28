@@ -1,0 +1,20 @@
+{
+  "name": "rmotr-campus",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rmotr/rmotr-campus",
+  "authors": [
+    "Martin Zugnoni <martin.zugnoni@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "bootstrap-social": "~4.11.0"
+  }
+}

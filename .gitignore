@@ -57,3 +57,9 @@ docs/_build/
 target/
 
 .DS_Store
+
+# Sqlite3
+*.db
+
+# Bower
+bower_components

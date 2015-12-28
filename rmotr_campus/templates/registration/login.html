@@ -1,0 +1,7 @@
+{% extends "bare.html" %}
+
+{% block main_container %}
+<a href="{% url 'social:begin' 'github' %}" class="btn btn-block btn-social btn-github btn-lg">
+  <span class="fa fa-github"></span> Sign in with GitHub
+</a>
+{% endblock %}
