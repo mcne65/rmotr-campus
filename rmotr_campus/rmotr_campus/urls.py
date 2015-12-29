@@ -1,6 +1,7 @@
 from django.conf.urls import include, url
 from django.contrib import admin
-from django.views.generic import TemplateView
+
+from accounts import views
 
 urlpatterns = (
     # Third party apps
@@ -9,5 +10,5 @@ urlpatterns = (
 
     # Own apps
     url(r'^accounts/', include('accounts.urls')),
-    url(r'^$', TemplateView.as_view(template_name='home.html')),
+    url(r'^$', views.HomeView.as_view(), name='home'),
 )
