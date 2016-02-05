@@ -115,6 +115,6 @@ AUTHENTICATION_BACKENDS = (
     'social.backends.github.GithubOAuth2',
     'django.contrib.auth.backends.ModelBackend',
 )
-SOCIAL_AUTH_GITHUB_KEY = '7b7d6c44aadf7331b34a'
-SOCIAL_AUTH_GITHUB_SECRET = '732e66f849592715043cc82ee03fc77d4e0f87e3'
+SOCIAL_AUTH_GITHUB_KEY = 'GH_KEY'
+SOCIAL_AUTH_GITHUB_SECRET = 'GH_SECRET'
 SOCIAL_AUTH_GITHUB_SCOPE = ['user:email', 'public_repo']
